@@ -1,5 +1,5 @@
 from flask import Flask, Response, render_template
-from camera import Video
+from camera_controller import Video
 
 app = Flask(__name__)
 @app.route('/')
